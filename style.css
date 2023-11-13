@@ -1,0 +1,82 @@
+:root{
+    --bg-color: #16a085;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #1abc9c;
+}
+.form-box{
+    width: 40%;
+    margin: auto;
+    padding: 60px;
+}
+h1{
+    background-color: var(--bg-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px 5px 0px 0px;
+}
+form{
+    background-color: #fffcfc;
+    padding-top: 30px;
+    border-radius: 0px 0px 5px 5px;
+
+}
+form p{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+form i{
+    background-color: var(--bg-color);
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+form p input{
+    padding: 15px;
+    margin-top: -2px;
+    font-size: 15px;
+    width: 87%;
+    border-left: 0px;
+    border-top: 1px groove #c0bebe;
+    border-right: 1px solid #c0bebe;
+    border-bottom: 1px solid#c0bebe;
+    border-radius: 0px 5px 5px 0px; 
+}
+.para{
+    color: #11a587;
+}
+.btn{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    width: 99%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    cursor: pointer;    
+}
+.btn:hover{
+    color: black;
+    border: 2px solid #df1212;
+    transition: .3s;
+}
+.signup{
+text-align: center;
+padding-bottom: 30px;
+}
+.signup a{
+    color: #11a587;
+    text-decoration: none;
+}
